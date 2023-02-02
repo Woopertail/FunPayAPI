@@ -1,0 +1,22 @@
+[project]
+name = "FunPayAPI"
+version = "0.0.1"
+authors = [
+  { name="Woopertail", email="woopertail@gmail.com" },
+]
+description = "Простой, но эффективный пакет для создания скриптов для FunPay."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/woopertail/FunPayAPI"
+"Bug Tracker" = "https://github.com/woopertail/FunPayAPI/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
